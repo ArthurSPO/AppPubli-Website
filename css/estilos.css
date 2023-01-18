@@ -1,0 +1,413 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	overflow-x: hidden;
+	font-family: Montserrat, sans-serif;
+	background-color: white;
+}
+
+@-webkit-keyframes animation {
+	0% {
+		-webkit-transform: scale(0.0);
+		transform: scale(0.0);
+	}
+
+	100% {
+		-webkit-transform: scale(1.0);
+		transform: scale(1.0);
+	}
+}
+
+@keyframes animation {
+	0% {
+		-webkit-transform: scale(0.0);
+		transform: scale(0.0);
+	}
+
+	100% {
+		-webkit-transform: scale(1.0);
+		transform: scale(1.0);
+	}
+}
+
+.animacao {
+	-webkit-animation-name: animation;
+	animation-name: animation;
+	-webkit-animation-duration: 5s;
+	animation-duration: 5s;
+	position: relative;
+}
+
+/* Estilos dos fundos */
+
+.caixa1,
+.caixa2,
+.caixa3,
+.caixa4,
+.caixa5,
+.caixa6,
+.caixa7,
+.caixa8 {
+	position: relative;
+	height: 100%;
+	opacity: 0.9;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center top;
+	background-attachment: fixed;
+}
+
+.caixa1 {
+	background-image: url(../imagens/fundopcp2.gif);
+}
+
+.caixa2 {
+	background-image: url(../imagens/fundo.jpeg);
+}
+
+.caixa3 {
+	background-image: url(../imagens/fundoup.gif);
+}
+
+.caixa4 {
+	background: #f09433;
+	background: -o-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+	background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f09433', endColorstr='#bc1888', GradientType=1);
+}
+
+.caixa5 {
+	background-image: url(../imagens/fundoplanos3.gif);
+}
+
+.caixa6 {
+	background-image: url(../imagens/fundosobre.gif);
+}
+
+.caixa7 {
+	background-image: url(../imagens/fundoeventos.gif);
+}
+
+.caixa8 {
+	background-image: url(../imagens/fundoresultados.gif);
+}
+
+.conteudo {
+	color: #1b1b1b;
+	background-color: white;
+	text-align: center;
+	padding: 20px 40px;
+}
+
+.conteudob {
+	color: #1b1b1b;
+	background-color: white;
+	text-align: center;
+	padding: 20px 40px 0px 40px;
+}
+
+.conteudo-titulo {
+	position: absolute;
+	left: 0;
+	top: 45%;
+	width: 100%;
+	text-align: center;
+}
+
+.conteudo-titulo span.titulo {
+	color: #fff;
+	background-color: #1b1b1b;
+	padding: 18px;
+	font-size: 25px;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	line-height: 2.0;
+}
+
+.fundo {
+	background-color: #1b1b1b;
+}
+
+.instagram {
+	background: #f09433;
+	background: -o-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+	background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f09433', endColorstr='#bc1888', GradientType=1);
+}
+
+/* Estilos Gerais */
+
+h1 {
+	color: black;
+	font-size: 1.5em;
+}
+
+h4 {
+	font-size: 1.1em;
+}
+
+p {
+	text-align: center;
+	font-size: 1.3em;
+}
+
+.cortexto {
+	color: #1b1b1b;
+}
+
+/* Estilos Navbar */
+
+.navbar-light .navbar-nav .nav-link {
+	color: white;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+	color: #d4b84b;
+}
+
+.navbar-light .navbar-toggler {
+	border-color: rgb(255, 255, 255);
+}
+
+.pointer {
+	pointer-events: none;
+}
+
+/* Declaração IDs e IMG especif*/
+
+#sobre {
+	text-align: center;
+}
+
+.sobreimg {
+	max-height: 500px;
+}
+
+#planos {
+	text-align: center;
+}
+
+#eventos {
+	text-align: center;
+}
+
+.eventosimg {
+	max-width: 900px;
+	max-height: 600px;
+}
+
+#resultados {
+	text-align: center;
+}
+
+#politica {
+	text-align: justify;
+}
+
+/* Estilos carousel */
+
+.carousel-control-next,
+.carousel-control-prev {
+	width: 10%;
+}
+
+.carousel-control-next:hover,
+.carousel-control-prev:hover {
+	-webkit-filter: invert(50%);
+	filter: invert(50%);
+}
+
+/* Estilos footer*/
+
+footer {
+	position: relative;
+	padding: 10px;
+}
+
+footer p {
+	color: white;
+	font-size: 0.8em;
+}
+
+footer p a {
+	color: white;
+}
+
+footer p a:hover {
+	text-decoration: none;
+	color: #d4b84b;
+}
+
+footer h4 {
+	color: #919496;
+	font-size: 1.0em;
+	text-transform: uppercase;
+}
+
+footer .navbar-nav a {
+	color: white;
+	font-size: 1.0em;
+	text-decoration: none;
+}
+
+footer .navbar-nav a:hover {
+	color: #d4b84b;
+}
+
+footer ul li {
+	float: right;
+	margin: 3px;
+	list-style: none;
+}
+
+/* Responsive Breakpoints */
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+	.carousel-item p {
+		font-size: 0.8em;
+	}
+
+	.container h1 {
+		font-size: 1.9em;
+	}
+
+	#sobre h1 {
+		font-size: 1.3em;
+	}
+
+	#sobre p {
+		font-size: 1.1em;
+	}
+
+	.caixa1,
+	.caixa2,
+	.caixa3,
+	.caixa4 {
+		background-attachment: scroll;
+	}
+
+	.caixa1 {
+		/* caixa home */
+		background-size: 200% 92%;
+		background-position: bottom center;
+	}
+
+	.conteudo h3,
+	.conteudob h3 {
+		font-size: 1.1em;
+	}
+
+	.conteudo p,
+	.conteudob p {
+		font-size: 0.9em;
+	}
+
+	.conteudo i {
+		font-size: 0.9em;
+	}
+
+	.conteudo {
+		padding: 0px 10px 40px 10px;
+	}
+
+	.conteudob {
+		padding: 60px 10px 0px 10px;
+	}
+
+	.conteudo-titulo span.titulo {
+		padding: 10px;
+		font-size: 14px;
+		letter-spacing: 1px;
+		line-height: 1.5;
+	}
+
+	.caixa3 {
+		/* caixa home */
+		background-size: 140% 90%;
+		background-position: bottom center;
+		margin-bottom: -60px;
+		margin-top: -20px;
+	}
+
+	.caixa5 {
+		/* caixa planos */
+		background-size: 250% 100%;
+	}
+
+	.caixa6 {
+		/* caixa sobre */
+		background-size: 250% 100%;
+	}
+
+	.caixa7 {
+		/* caixa eventos */
+		background-size: 275% 100%;
+	}
+
+	.caixa8 {
+		/* caixa resultados */
+		background-size: 280% 100%;
+	}
+
+	#sobre .col-md-12 img {
+		width: 240px;
+	}
+
+	#sobre .col-md-6 img {
+		max-height: 420px;
+		margin-bottom: 10px;
+	}
+
+	#planos p {
+		font-size: 0.9em;
+		text-align: justify;
+	}
+
+	#eventos h1 {
+		font-size: 1.3em;
+	}
+
+	footer img {
+		display: none;
+	}
+
+	footer .col-md-3 h4 {
+		font-size: 0.9em;
+	}
+
+	footer .col-md-3 ul li a {
+		font-size: 0.9em;
+	}
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+	.carousel-item p {
+		font-size: 0.9em;
+	}
+
+	.caixa1,
+	.caixa2,
+	.caixa3,
+	.caixa4 {
+		background-attachment: scroll;
+	}
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {}
